@@ -9,6 +9,7 @@ function sobra() {
      num2 = Number(window.prompt("digite outro numero"));
 
      resultado = num1 % num2;
+     
 }
 
 function multiplicacao() {
@@ -17,23 +18,53 @@ function multiplicacao() {
 
      resultado = num1 * num2;
      alert("o resultado e " + resultado + ".");
+     numero = resultado % 2;
+     alert("o resultado e " + resultado + ".");
+     if (numero == 0) {
+          alert("par");
+     }else {
+          alert("impar");
 }
-
+}
 function adicao() {
      num1 = Number(window.prompt("digite um numero"));
      num2 = Number(window.prompt("digite outro numero"));
 
      resultado = num1 + num2;
      alert("o resultado e " + resultado + ".");
+     numero = resultado % 2;
+     alert("o resultado e " + resultado + ".");
+     if (numero == 0) {
+          alert("par");
+     }else {
+          alert("impar");
 }
-
-function subitracao() {
+}
+function subtracao() {
      num1 = Number(window.prompt("digite um numero"));
      num2 = Number(window.prompt("digite outro numero"));
 
-     resultado = num1 - num2;
+  resultado = num1 - num2;
      alert("o resultado e " + resultado + ".");
+     numero = resultado % 2;
+     alert("o resultado e " + resultado + ".");
+     if (numero == 0) {
+          alert("par");
+     }else {
+          alert("impar");
 }
+}
+function divisao() {
+     num1 = Number(window.prompt("digite um numero"));
+     num2 = Number(window.prompt("digite outro numero"));
 
-
+     resultado = num1 / num2;
+     numero = resultado % 2;
+     alert("o resultado e " + resultado + ".");
+     if (numero == 0) {
+          alert("par");
+     }else {
+          alert("impar");
+     }
+}
  
