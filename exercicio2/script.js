@@ -10,7 +10,7 @@ function subtrair() {
      if(resul > 18) {
          alert("voce ja pode tirar a habilitacao");
      } else{
-         alert("voce ainda nao pode tirar a habilitacao");
+         alert("voce ainda nao pode tirar a habilitacao. ");
          alert("voce ainda precisa esperar essa idade:");
          alert(resul)
      } 
